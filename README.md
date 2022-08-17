@@ -2,4 +2,4 @@
 
 Next.js + Material-UI + TailwindCSS + Firebase
 
-[click for page preview](https://mas-next-blog-app.vercel.app/)
+<a href="https://mas-next-blog-app.vercel.app/" target="_blank">Click for Page Prewiev</a>
