@@ -188,7 +188,7 @@ export default function CommentsBlog({
         {comments.length > 0 && (
           <List
             sx={{ width: "100%", bgcolor: "bg-orange-200" }}
-            className="max-h-72 overflow-y-scroll"
+            className="max-h-72 overflow-y-auto"
           >
             <h4 className="m-0 text-center">Comments</h4>
             {comments.map((comment) =>

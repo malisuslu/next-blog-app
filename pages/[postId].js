@@ -134,7 +134,7 @@ function Blog() {
         header="Edit Post"
         buttonText="Upload Edited Post"
       />
-      <div className="p-4 w-2/12 min-w-[80vw] max-h-[82vh] text-center mx-auto shadow-2xl rounded-3xl m-4 bg-orange-200 hover:scale-105 hover:transition-all hover:ease-in-out transition-all ease-in-out">
+      <div className="p-4 w-2/12 min-w-[80vw] max-h-fit text-center mx-auto shadow-2xl rounded-3xl m-4 bg-orange-200 hover:scale-105 hover:transition-all hover:ease-in-out transition-all ease-in-out">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
           <div className="w-full">
             <div className="relative w-full flex p-2">
@@ -196,7 +196,7 @@ function Blog() {
               {title || "No Title"}
             </h1>
             <div className="flex items-center flex-wrap">
-              <p className="m-0 p-0 break-words max-h-20 md:max-h-36 overflow-auto">
+              <p className="m-0 p-0 break-words max-h-fit md:max-h-36 overflow-auto text-justify">
                 {content || "No Content"}
               </p>
               <span

@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 function Layout({ children }) {
   return (
-    <div className="h-screen w-screen pt-[68px] pb-[92px]">
+    <div className=" h-fit w-screen pt-[68px] pb-8">
       <Navbar />
       {children}
       <Footer />

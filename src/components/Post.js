@@ -189,7 +189,7 @@ function Post({
             <h2 className="tracking-widest text-xs title-font font-bold text-green-600 mb-1 uppercase ">
               {subject || "No Subject"}
             </h2>
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3 max-h-6 overflow-hidden">
               {title || "No Title"}
             </h1>
             <div className="flex items-center flex-wrap ">
